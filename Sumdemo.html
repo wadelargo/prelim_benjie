@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum demo</title>
+</head>
+<body>
+    <h1>This is my Demo</h1>
+
+    <div id="demo"></div>
+
+    <script>
+
+        let message = "this is my message";
+
+        var input1 = prompt("Enter a number: ")
+        var input2 = prompt("Enter another number" )
+        var input3 = prompt("Enter another number" )
+        var input4 = prompt("enter another number" )
+        var input5 = prompt("Enter another number" )
+
+        var num1 = input1*1;
+        var num2 = input2*1;
+        var num3 = input3*1;
+        var num4 = input4*1;
+        var num5 = input5*1;
+
+        var sum = num1 + num2 + num3 + num4 + num5;
+
+        var average = sum;
+
+        var demoDiv = document.getElementById('demo')
+        demoDiv.innerText = "The average of " + num1 + " added by " + num2 + " added by " + num3 + " and added by " + num4 + " and lastly added by " + num5 + " the average is " + average;
+        
+        var messDiv = document.getElementById('message')
+        messeDiv.innerText = "" + message;
+    </script>
+
+</body>
+</html>
